@@ -1,6 +1,6 @@
-# SonarQube with ReactJS Project
+# SonarQube with React.js Project
 
-このプロジェクトでは、ReactJSアプリケーションにSonarQubeを統合してコード品質を分析します。
+このプロジェクトでは、React.jsアプリケーションにSonarQubeを統合してコード品質を分析します。
 
 ## SonarQubeのセットアップ
 
