@@ -30,7 +30,11 @@ npm install
 sonar-scanner -Dsonar.login=your_token
 ```
 
-## 分析結果
+## テストレポート出力
+
+上記の`sonar-scanner`コマンドを実行すると、プロジェクトのルートディレクトリに`.scannerwork/`ディレクトリが生成され、その中にテストレポートが出力されます。このディレクトリは、SonarQubeの分析中に一時的に使用されるもので、直接の閲覧や編集は推奨されません。
+
+## テストレポート閲覧
 
 分析が完了すると、以下のURLでSonarQubeのダッシュボードを開いて結果を確認できます。
 [http://localhost:9000/dashboard?id=your_project_key](http://localhost:9000/dashboard?id=your_project_key)
