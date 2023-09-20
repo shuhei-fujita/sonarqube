@@ -5,7 +5,16 @@
 ## SonarQubeのセットアップ
 
 1. SonarQubeをローカルマシンにインストールします。
+
+```
+brew install sonarqube
+```
+
 2. SonarQubeサーバーを起動します。
+
+```
+docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
+```
 
 ## プロジェクトのセットアップ
 
@@ -17,11 +26,6 @@ npm install
 
 2. SonarQubeのスキャナーを実行します。
 
-```
-npm run eject
-```
-
-その後、以下のコマンドを実行します。
 ```
 sonar-scanner -Dsonar.login=your_token
 ```
