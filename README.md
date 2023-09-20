@@ -24,7 +24,14 @@ docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
 npm install
 ```
 
-2. SonarQubeのスキャナーを実行します。
+2. SonarQubeのWeb UIにアクセスして、ユーザートークンを取得します。
+
+- `http://localhost:9000/`にアクセスし、SonarQubeのダッシュボードにログインします。
+- 右上のアイコンをクリックして「My Account」を選択します。
+- 「Security」タブをクリックして、新しいトークンを生成します。
+- 生成されたトークンをコピーして保存します。このトークンは後で`sonar-scanner`コマンドの実行時に使用します。
+
+3. SonarQubeのスキャナーを実行します。
 
 ```
 sonar-scanner -Dsonar.login=your_token
