@@ -50,3 +50,6 @@ sonar-scanner -Dsonar.login=your_token
 
 - `.scannerwork/` ディレクトリは、`sonar-scanner`がプロジェクトの分析中に一時的に使用するディレクトリです。このディレクトリはGitリポジトリに追跡・コミットする必要はありません。
 
+<img width="1138" alt="Screenshot 2023-09-22 at 13 31 15" src="https://github.com/shuhei-fujita/sonarqube/assets/38001967/51508a01-a7ba-470f-a723-91313367393a">
+<img width="1137" alt="Screenshot 2023-09-22 at 13 31 37" src="https://github.com/shuhei-fujita/sonarqube/assets/38001967/7511b721-b99b-4ba5-af38-a8b0ed003e14">
+
